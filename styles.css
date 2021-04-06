@@ -281,7 +281,7 @@ footer{
   box-shadow: 5px 5px 5px black;
   margin-top: 10px;
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 320px){
   .nav-bar{
     display: grid;
     justify-items: center;
