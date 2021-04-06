@@ -305,7 +305,7 @@ footer{
     width: fit-content;
   }
 }
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 480px){
   .about-container > div > img {
     height: 400px;
   }
@@ -320,7 +320,21 @@ footer{
     width: 100vw;
   }
   .project-card > a > button:hover {
-  background: coral;
-  color: black;
-}
+    width: unset;
+    background: coral;
+    color: black;
+  }
+  .socials{
+    margin-top: 50px;
+    justify-content: space-evenly;
+  }
+  .socials > a> img{
+    height: 40px;
+  }
+  .banner-text{
+    margin: 100px 0 0 20px;
+  }
+  .buttons .button1 , .button2{
+    margin: 20px 20px 0 20px;
+  }
 }
