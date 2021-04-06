@@ -137,7 +137,7 @@ h3{
   text-align: center;
   padding: 15px;
 }
-.project-card > a > input{
+.project-card > a > button{
   font-size: 20px;
   width: 140px;
   padding: 10px;
@@ -150,7 +150,7 @@ h3{
   cursor: pointer;
   transition: background width 1s;
 }
-.project-card > a > input:hover {
+.project-card > a > button:hover {
   background: #252631;
   width: 160px;
   color: coral;
@@ -305,9 +305,22 @@ footer{
     width: fit-content;
   }
 }
-@media only screen and (max-width: 640px){
+@media only screen and (max-width: 400px){
+  .about-container > div > img {
+    height: 400px;
+  }
+  .about-text > h2{
+    font-size: 50px;
+  } 
+  .about-container{
+    margin: 20px;
+  }
   .contact-container{
     flex-wrap: wrap-reverse; 
     width: 100vw;
   }
+  .project-card > a > button:hover {
+  background: coral;
+  color: black;
+}
 }
