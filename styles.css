@@ -304,6 +304,10 @@ footer{
     flex-wrap: wrap-reverse; 
     width: fit-content;
   }
+  .location > iframe{
+    height: 50vh;
+    width: 50vw;
+  }
 }
 @media only screen and (max-width: 480px){
   .about-container > div > img {
@@ -318,6 +322,9 @@ footer{
   .contact-container{
     flex-wrap: wrap-reverse; 
     width: 100vw;
+  }
+  .contact h2{
+    margin: 10px 0 10px 0;
   }
   .project-card > a > button:hover {
     width: unset;
@@ -340,5 +347,13 @@ footer{
   }
   .socials > a > img:hover {
     transform: none;
+  }
+  .location > iframe{
+    height: 50vh;
+    width: 95vw;
+  }
+  .contact-form > iframe{
+    height: 100vh;
+    width: 100vw;
   }
 }
