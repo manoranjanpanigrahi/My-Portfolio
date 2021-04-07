@@ -32,11 +32,11 @@ ul {
   width: 550px;
   font-size: 25px;
 }
-.hero > nav > ul > a{
+.hero > nav > ul > a {
   text-decoration: none;
   color: rgb(241, 136, 97);
 }
-.hero > nav > ul > a :hover{
+.hero > nav > ul > a :hover {
   text-decoration: underline;
   text-decoration-color: white;
   text-underline-offset: 10px;
@@ -49,7 +49,7 @@ h1 {
 .banner-text {
   margin: 180px 0 0 70px;
 }
-.banner-text > h2{
+.banner-text > h2 {
   font-size: 1.7rem;
   font-weight: 400;
 }
@@ -98,46 +98,46 @@ button:hover {
   text-align: center;
   font-size: 1.15rem;
 }
-.about-text > h2{
+.about-text > h2 {
   font-weight: 600;
   font-size: 55px;
   padding: 10px;
 }
-h3{
+h3 {
   font-weight: 500;
 }
 
 /*PROJECTS SECTION*/
-.projects{
+.projects {
   padding: 10px 50px;
 }
-.project-card{
+.project-card {
   height: 580px;
   width: 300px;
   box-shadow: 5px 5px 10px coral;
   border-radius: 40px;
 }
-.all-projects{
+.all-projects {
   display: flex;
   justify-content: space-around;
 }
-.project-text{
+.project-text {
   font-size: 40px;
   font-weight: 600;
   text-align: center;
   margin: 20px;
 }
-.project-card > img{
+.project-card > img {
   height: 280px;
   width: 100%;
   border-radius: 50%;
   padding: 10px;
 }
-.project-card{
+.project-card {
   text-align: center;
   padding: 15px;
 }
-.project-card > a > button{
+.project-card > a > button {
   font-size: 20px;
   width: 140px;
   padding: 10px;
@@ -155,30 +155,30 @@ h3{
   width: 160px;
   color: coral;
 }
-.project-card:hover{
+.project-card:hover {
   transform: scale(1.03);
 }
 /*SKILLS SECTION  */
-.skills-container{
+.skills-container {
   display: flex;
   justify-content: center;
 }
 
-.skills-container > ul{
+.skills-container > ul {
   display: block;
   margin-top: -30px;
 }
-.skills-container > ul > li{
+.skills-container > ul > li {
   margin: 50px;
   position: relative;
 }
-.skills > h2{
+.skills > h2 {
   font-size: 45px;
   text-align: center;
   margin-top: 50px;
 }
-.skills-container > ul > li:before{
-  content: '';
+.skills-container > ul > li:before {
+  content: "";
   position: absolute;
   top: 40px;
   left: 0;
@@ -187,8 +187,8 @@ h3{
   background-color: #252631;
   border-radius: 20px;
 }
-.skills-container > ul > li:after{
-  content: '';
+.skills-container > ul > li:after {
+  content: "";
   position: absolute;
   top: 40px;
   width: 0%;
@@ -199,62 +199,65 @@ h3{
   animation-duration: 1s;
   animation-timing-function: ease;
   animation-fill-mode: forwards;
-  
 }
-.skills-container > ul > li.html:after{
+.skills-container > ul > li.html:after {
   animation-name: html;
 }
-@keyframes html{
-  to{
+@keyframes html {
+  to {
     width: 75%;
   }
 }
-.skills-container > ul > li.css:after{
+.skills-container > ul > li.css:after {
   animation-name: css;
 }
-@keyframes css{
-  to{
+@keyframes css {
+  to {
     width: 50%;
   }
-}.skills-container > ul > li.javascript:after{
+}
+.skills-container > ul > li.javascript:after {
   animation-name: javascript;
 }
-@keyframes javascript{
-  to{
+@keyframes javascript {
+  to {
     width: 50%;
   }
-}.skills-container > ul > li.c:after{
+}
+.skills-container > ul > li.c:after {
   animation-name: c;
 }
-@keyframes c{
-  to{
+@keyframes c {
+  to {
     width: 60%;
   }
-}.skills-container > ul > li.dbms:after{
+}
+.skills-container > ul > li.dbms:after {
   animation-name: dbms;
 }
-@keyframes dbms{
-  to{
+@keyframes dbms {
+  to {
     width: 50%;
   }
-}.skills-container > ul > li.wordpress:after{
+}
+.skills-container > ul > li.wordpress:after {
   animation-name: wordpress;
 }
-@keyframes wordpress{
-  to{
+@keyframes wordpress {
+  to {
     width: 85%;
   }
 }
 /*FOOTER  */
-footer{
-  background-color: black ;
+footer {
+  background-color: black;
   color: white;
 }
-.footer > h3{
+.footer > h3 {
   text-align: center;
   padding: 50px;
 }
-.footer > img{
+.footer > img {
   width: 100px;
   height: 100px;
   margin-left: 47%;
@@ -262,68 +265,91 @@ footer{
 }
 
 /*CONTACT ME*/
-.contact h2{
+.contact h2 {
   font-size: 45px;
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
 }
-.contact-container{
+.contact-container {
   display: flex;
   justify-content: space-evenly;
 }
-.contact-form > iframe{
-  width: 640px; 
-  height: 800px; 
+.contact-form > iframe {
+  width: 640px;
+  height: 800px;
 }
-.location > iframe{
+.location > iframe {
+  height: 500px;
+  width: 650px;
   border-radius: 20px;
   box-shadow: 5px 5px 5px black;
   margin-top: 10px;
 }
-@media only screen and (max-width: 1200px){
-  body, html { 
-  overflow-x:hidden; 
+@media only screen and (max-width: 1200px) {
+  body,
+  html {
+    overflow-x: hidden;
   }
-  .all-projects{
+  .banner-text{
+    margin-left: 0;
+    text-align: center;
+  }
+  .buttons{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  button{
+    margin: 20px 20px 0 0;
+  }
+  .socials{
+    margin: 40px 0 0 0;
+    justify-content: center;
+  }
+  .all-projects {
     display: flex;
     flex-wrap: wrap;
-  }  
-  .project-card:hover{
+  }
+  .project-card:hover {
     transform: none;
   }
-  .about-container{
+  .about-container {
     display: flex;
     flex-wrap: wrap-reverse;
     justify-content: center;
   }
-  .about-text > h3{
+  .about-text > h3 {
     text-align: start;
   }
-  .contact-container{
-    flex-wrap: wrap-reverse; 
+  .contact-container {
+    flex-wrap: wrap-reverse;
     width: fit-content;
   }
-  .location > iframe{
+  .location > iframe {
     height: 50vh;
-    width: 50vw;
+    width: 80vw;
+  }
+  .contact-form > iframe {
+    width: 80vw;
   }
 }
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 560px) {
   .about-container > div > img {
     height: 400px;
+    margin-top: -100px;
   }
-  .about-text > h2{
+  .about-text > h2 {
     font-size: 50px;
-  } 
-  .about-container{
+  }
+  .about-container {
     margin: 20px;
   }
-  .contact-container{
-    flex-wrap: wrap-reverse; 
+  .contact-container {
+    flex-wrap: wrap-reverse;
     width: 100vw;
   }
-  .contact h2{
+  .contact h2 {
     margin: 10px 0 10px 0;
   }
   .project-card > a > button:hover {
@@ -331,29 +357,52 @@ footer{
     background: coral;
     color: black;
   }
-  .socials{
+  .socials {
     margin: 0;
-    margin-top: 50px;
+    margin-top: 30px;
     justify-content: space-evenly;
   }
-  .socials > a> img{
+  .socials > a > img {
     height: 40px;
-  }
-  .banner-text{
-    margin: 100px 0 0 20px;
-  }
-  .buttons .button1 , .button2{
-    margin: 20px 20px 0 20px;
   }
   .socials > a > img:hover {
     transform: none;
   }
-  .location > iframe{
+  .banner-text {
+    margin: 20px 0 0 20px;
+  }
+  .banner-text > h2 {
+    font-size: 1.5rem;
+  }
+  .buttons .button1,
+  .button2 {
+    margin: 20px 20px 0 20px;
+  }
+  .buttons .button1:hover,
+  .buttons .button2:hover {
+    background: coral;
+    width: auto;
+  }
+  .location > iframe {
     height: 50vh;
     width: 95vw;
   }
-  .contact-form > iframe{
+  .contact-form > iframe {
     height: 100vh;
     width: 100vw;
+  }
+  .footer > img {
+    margin-left: 40vw;
+  }
+  .nav-bar {
+    flex-direction: column;
+    text-align: center;
+  }
+  .nav-bar ul {
+    width: 100%;
+    flex-direction: column;
+  }
+  .nav-bar ul a li:hover {
+    text-decoration: none;
   }
 }
