@@ -381,10 +381,11 @@ footer {
     margin: 0;
   }
   .projects{
-    padding: 10px 41px;
+    padding: 10px 38px;
   }
   .project-card{
-    height: 55vh;
+    padding: 2px;
+    height: 58vh;
     width: 100vw;
   }
   .project-card > a > button:hover {
