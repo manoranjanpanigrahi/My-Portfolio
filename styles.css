@@ -101,6 +101,10 @@ button:hover {
 .about-text {
   text-align: center;
   font-size: 1.15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
 }
 .about-title{
   margin-top: 1rem;
@@ -139,7 +143,7 @@ h3 {
 }
 .project-card > img {
   height: 16rem;
-  width: 100%;
+  width: 90%;
   border-radius: 50%;
   padding: .25rem;
 }
@@ -300,6 +304,7 @@ footer {
   box-shadow: 5px 5px 5px black;
   margin-top: 10px;
 }
+/*Responsive layout for mobile display under 1200px*/
 @media only screen and (max-width: 1200px) {
   body,
   html {
@@ -350,11 +355,17 @@ footer {
 }
 @media only screen and (max-width: 560px) {
   .about-container > div > img {
-    height: 400px;
-    margin-top: -100px;
+    height: 350px;
+    margin-top: -25px;
+  }
+  .about-text{
+    padding: 0;
   }
   .about-text > h2 {
     font-size: 50px;
+  }
+  .about-text > h3{
+    text-align: center;
   }
   .about-container {
     margin: 20px;
@@ -369,13 +380,21 @@ footer {
   .all-projects .project-card:nth-child(5) {
     margin: 0;
   }
+  .projects{
+    padding: 10px 41px;
+  }
+  .project-card{
+    height: 55vh;
+    width: 100vw;
+  }
   .project-card > a > button:hover {
     width: unset;
     background: coral;
     color: black;
   }
   .project-card img {
-    height: 250px;
+    height: 14rem;
+    width: 85%;
   }
   .socials {
     margin: 0;
