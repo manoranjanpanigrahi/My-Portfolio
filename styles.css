@@ -120,9 +120,10 @@ h3 {
   padding: 10px 50px;
 }
 .project-card {
+  margin: .5rem;
   height: 32rem;
   width: 19rem;
-  box-shadow: 5px 5px 10px coral;
+  box-shadow: .1em .1em .6em #151516;
   border-radius: 40px;
   text-align: center;
   padding: .7rem;
@@ -132,9 +133,7 @@ h3 {
   grid-template-columns: repeat(4, 300px);
   justify-content: space-between;
 }
-.all-projects .project-card:nth-child(5) {
-  margin-left: 35vw;
-}
+
 .project-text {
   font-size: 40px;
   font-weight: 600;
@@ -157,6 +156,7 @@ h3 {
   border-radius: 20px;
   text-align: center;
   background-color: coral;
+  box-shadow: .3em .3em .5em #252631;
   cursor: pointer;
   transition: background width 1s;
 }
@@ -164,9 +164,15 @@ h3 {
   background: #252631;
   width: 160px;
   color: coral;
+  box-shadow: .3em .3em .5em coral;
 }
 .project-card:hover {
   transform: scale(1.03);
+}
+.more{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /*SKILLS SECTION  */
 .skills-container {
@@ -396,6 +402,13 @@ footer {
   .project-card img {
     height: 14rem;
     width: 85%;
+  }
+  .project-card h2{
+    font-size: 1.4rem;
+  }
+  .more{
+    width: 100%;
+    margin-top: 2rem;
   }
   .socials {
     margin: 0;
