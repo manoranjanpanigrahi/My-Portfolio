@@ -245,7 +245,7 @@ h3 {
 }
 @keyframes c {
   to {
-    width: 60%;
+    width: 50%;
   }
 }
 .skills-container > ul > li.dbms:after {
@@ -261,7 +261,7 @@ h3 {
 }
 @keyframes wordpress {
   to {
-    width: 85%;
+    width: 75%;
   }
 }
 .skills-container > ul > li.java:after {
@@ -269,7 +269,7 @@ h3 {
 }
 @keyframes java {
   to {
-    width: 45%;
+    width: 65%;
   }
 }
 /*FOOTER  */
