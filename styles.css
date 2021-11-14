@@ -367,6 +367,7 @@ footer {
     width: 80vw;
   }
 }
+/* reponsive layout for mobile devices */
 @media only screen and (max-width: 560px) {
   .logo{
     margin-left: 0;
