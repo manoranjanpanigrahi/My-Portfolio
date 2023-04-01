@@ -142,6 +142,7 @@ h3 {
 }
 
 .project-card {
+  position: relative;
   margin: .5rem;
   height: 31rem;
   width: 19rem;
@@ -153,7 +154,7 @@ h3 {
 
 .all-projects {
   display: grid;
-  grid-template-columns: repeat(4, 300px);
+  grid-template-columns: repeat(4, auto);
   justify-content: space-between;
 }
 
@@ -179,15 +180,13 @@ h3 {
 }
 
 .project-card>a>button {
-
+  position: absolute;
+  margin: 0;
+  bottom: 20px;
   font-size: 20px;
-  width: fit-content;
   padding: 10px;
-  margin: 10px;
   border: 0;
-  outline: 0;
   border-radius: 20px;
-  text-align: center;
   background-color: coral;
   box-shadow: .3em .3em .5em #252631;
   cursor: pointer;
@@ -435,7 +434,7 @@ footer {
   }
 
   .hero {
-    height: 94vh;
+    height: 96vh;
   }
 
   .about-title,
@@ -479,7 +478,7 @@ footer {
 
   .project-card {
     padding: 2px;
-    height: 60vh;
+    height: 75vh;
     width: 100vw;
     box-shadow: 0 0 10px grey;
     border: 0;
